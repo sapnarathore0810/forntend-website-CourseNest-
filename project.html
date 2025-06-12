@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Nest</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <link rel="icon" href="logo.png"  >
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <!--start -->
+    <div class="menu">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <ion-icon name="grid-outline"></ion-icon>
+        </label>
+
+        <label class="logo">CourseNest</label>
+
+        <ul>
+          <li><a href="#hero-section" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Our Courses</a></li>
+          <li><a href="#testimonial">Reviews</a></li>
+          <li><a href="#app">Download App</a></li>
+        </ul>
+      </nav>
+    </div>
+   
+    <div class="section flex" id="hero-section">
+      <div class="text">
+        <h1 class="primary">
+          It's Not Just Learning, <br />
+          It's  <span>Growth.</span>
+        </h1>
+
+        <p class="tertiary">
+         Learning is no longer limited by time or place.
+          With LearnLover, you get access to world-class instructors,
+           interactive lessons, and a supportive community — all tailored to help
+            you succeed at your own pace and on your own schedule. Start your journey today!
+        </p>
+
+        <a href="#menu" class="btn">Explore Courses</a>
+      </div>
+      <div class="visual" id="code">
+        <img src="https://cdn.vectorstock.com/i/1000v/34/16/coding-concept-on-black-vector-15233416.jpg" alt="" />
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- divs-->
+    <div class="section" id="how-it-works">
+      <h2 class="secondary">How It Works</h2>
+
+      <div class="container flex">
+        <div class="box">
+          <h3>Easy Upgrade </h3>
+          <ion-icon name="flash-outline"></ion-icon>
+          <p>
+           Get started in minutes with our simple registration process. Create your account, choose your course,
+            and begin your learning journey right away.
+          </p>
+        </div>
+
+        <div class="box active">
+          <h3>Expert Tutors</h3>
+          <ion-icon name="school-outline"></ion-icon>
+          <p>
+           Learn from top industry professionals who bring real-world experience, 
+           expert knowledge, and practical insights to every lesson.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Flexible Learning</h3>
+          <ion-icon name="calendar-outline"></ion-icon>
+          <p>
+          Study anytime, anywhere, and at your own pace. Our flexible learning platform lets 
+          you balance your education with your busy schedule.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- About  section-->
+    <div class="section" id="about">
+      <div class="container flex">
+        <div class="visual">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/021/999/915/small_2x/coding-career-black-and-white-concept-spot-illustration-editable-2d-flat-monochrome-cartoon-character-for-web-design-software-development-creative-line-art-idea-for-website-mobile-blog-vector.jpg" alt="" />
+        </div>
+        <div class="text">
+          <div class="secondary">About CourseNest</div>
+          <h2 class="primary">5000+</h2>
+
+          <h3 class="tertiary">Successful Learners & Counting</h3>
+
+          <p>
+            Join thousands of learners who trust CourseNest to upgrade their careers. With expert-led courses, 
+            hands-on projects, and flexible learning schedules, we make it easy for you to turn your passion into
+             real-world success. Start learning today and unlock your full potential!
+          </p>
+
+          <a href="#menu" class="btn">Explore Courses</a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--courses -->
+     <hr>
+    <div  class="section" id="menu">
+      <div class="container">
+        <ul class="category">
+          <li class="active border">All</li>
+          <li class="border">Web development</li>
+          <li class="border">Mobile App development</li>
+          <li class="border">Data Science & AI</li>
+          <li class="border">Cybersecurity</li>
+          <li class="border">Cloud Computing & DevOps</li>
+        </ul>
+
+        <div class="container">
+          <div class="restaurant-menu">
+            <div class="menu-item">
+          <ion-icon name="code-slash-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Web Development</div>
+
+              <div class="location">Master Frontend & Backend</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $49</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+            <ion-icon name="phone-portrait-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Mobile App Development</div>
+
+              <div class="location">iOS & Android Development</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $39</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+            <ion-icon name="analytics-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Data Science & AI</div>
+
+              <div class="location">Machine Learning & Analytics</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $39</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+            <ion-icon name="shield-checkmark-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Cybersecurity</div>
+
+              <div class="location">Protect & Secure Systems</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $39</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+            <ion-icon name="cloud-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Cloud Computing & DevOps</div>
+
+              <div class="location">AWS, Azure & CI/CD</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $39</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+            <ion-icon name="terminal-outline" style="font-size:60px;"></ion-icon>
+
+              <div class="title">Programming Languages</div>
+
+              <div class="location">Python, Java, C++ & more</div>
+
+              <div class="order flex">
+                <div class="price">Starting at $39</div>
+                <a href="#" class="btn btn-menu">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+<hr>
+    <!-- reveiws -->
+    <div class="section" id="testimonial">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="secondary">What People Say About Course Nest</h2>
+          <p>
+           “Course Nest has completely transformed my learning experience.
+            The expert tutors and flexible classes allowed me to master web development 
+            while balancing my full-time job. Highly recommended!”
+          </p>
+
+          <div class="user flex">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE8y50Dr30jBvouA8SN75ulmi80w3aI-Ssgw&s" alt="" />
+
+            <div class="name">
+              <div class="title">Rekha</div>
+              <div class="location">New Delhi, India</div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="visual">
+          <img src="" alt="" />
+        </div> -->
+        
+      </div>
+    </div>
+    <hr>
+    <!--  -->
+
+    <!-- Feedbck -->
+    
+    <div class="section" id="faq">
+      <h2 class="secondary">Frequently Asked Questions</h2>
+
+      <div class="faq">
+        <details>
+          <summary>Do I need any prior coding experience?</summary>
+          <div class="content">
+            <p>
+            No prior experience is required for most beginner courses. We offer courses for all skill levels, 
+            starting from absolute beginners to advanced developers.
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Will I get a certificate after completing a course?</summary>
+          <div class="content">
+            <p>
+                       Yes! After successfully completing any course, you’ll receive a verified certificate which you can showcase on your resume or LinkedIn.
+
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Can I access the courses anytime?</summary>
+          <div class="content">
+            <p>
+           Absolutely! All courses are self-paced and accessible 24/7. You can learn anytime and from anywhere, as per your convenience.
+
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Do you offer mentor or instructor support?</summary>
+          <div class="content">
+            <p>
+             Yes. Our expert instructors are available to guide you through live Q&A sessions, discussion forums, and one-on-one mentorship (depending on the course).
+
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+    <hr>
+    <!---->
+
+    <!-- App download -->
+    <div class="section" id="app">
+      <div class="container flex">
+        <!-- <div class="visual">
+          <img src="" alt="" /> 
+        </div> -->
+
+        <div class="text">
+          <h2 class="secondary">Download The CourseNest App</h2>
+          <p>
+            Take your learning anywhere with the Course Nest App. Access courses, track
+             your progress, watch lessons offline, and stay connected with your tutors — all from your phone.
+              Your skills, your schedule, your way.
+
+          </p>
+
+          <div class="download flex">
+            <div class="app-store">
+              <ion-icon name="logo-google-playstore"></ion-icon>
+              <p>
+                GET IT ON <br />
+                <span>Google Play</span>
+              </p>
+            </div>
+
+            <div class="app-store">
+              <ion-icon name="logo-apple"></ion-icon>
+              <p>
+                Donload on the <br />
+                <span>App Store</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container flex">
+        <div class="footer-about">
+          <h2>About</h2>
+          <p>
+           Course Nest is your one-stop platform for mastering programming and 
+           tech skills. Our expert-curated courses, flexible schedules, and real-world
+            projects empower you to upgrade your career at your own pace. Join thousands of learners 
+            worldwide and start building your future today.
+
+          </p>
+        </div>
+
+        <div class="footer-category">
+          <h2>Our Courses</h2>
+
+          <ul>
+  <li>Web Development</li>
+  <li>Mobile App Development</li>
+  <li>Data Science & AI</li>
+  <li>Cybersecurity</li>
+  <li>Cloud Computing & DevOps</li>
+  <li>Programming Languages</li>
+</ul>
+        </div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Courses</li>
+            <li>Pricing</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+
+        <div class="get-in-touch">
+          <h2>Get in touch</h2>
+          <ul>
+            <li>Account</li>
+            <li>Support Center</li>
+            <li>Feedback</li>
+            <li>Suggession</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2022. All Rights Reserved.</p>
+      </div>
+    </div>
+
+
+    
+
+    
+           <!--   yt   -->
+    <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" class="youtube" target="__blank">
+  <p>Visit our channel </p>
+</a>
+    <!-- End Footer -->
+
+    
+<script src="project.js"></script>
+<!-- iconic -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+  </body>
+</html>
